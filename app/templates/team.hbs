@@ -1,0 +1,10 @@
+<h2>The Team</h2>
+
+{{#each model as |teamBio|}}
+  <h3>{{teamBio.name}}</h3>
+  <p>Title: {{teamBio.title}}</p>
+  <p>Details: {{teamBio.details}}</p>
+{{/each}}
+
+
+{{outlet}}

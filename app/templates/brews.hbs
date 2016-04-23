@@ -1,0 +1,9 @@
+<h2>Brewski On Tap</h2>
+
+{{#each model as |brewski|}}
+  <h3>{{brewski.name}}</h3>
+  <p>Style: {{brewski.style}}</p>
+  <p>Award Winner: {{brewski.awardwinner}}</p>
+{{/each}}
+
+{{outlet}}

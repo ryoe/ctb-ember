@@ -1,0 +1,17 @@
+<ul>
+<li>{{#link-to "brews"}}Brews{{/link-to}}</li>
+<li>{{#link-to "about"}}Aboot{{/link-to}}</li>
+<li>{{#link-to "team"}}Team{{/link-to}}</li>
+</ul>
+
+
+<h2>Brews On Tap</h2>
+
+{{#each model as |brewOnTap|}}
+  <h3>{{brewOnTap.name}}</h3>
+  <p>Style: {{brewOnTap.style}}</p>
+  <p>Award Winner: {{brewOnTap.awardwinner}}</p>
+{{/each}}
+
+
+{{outlet}}
