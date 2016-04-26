@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('about');
   this.route('team');
   this.route('brews');
+  this.route('awards');
 });
 
 export default Router;

@@ -1,0 +1,8 @@
+<h2>Awards</h2>
+
+{{#each model as |awardInfo|}}
+  <h3>{{awardInfo.event}}, {{awardInfo.year}}</h3>
+  <p>{{awardInfo.place}} - {{awardInfo.category}}</p>
+{{/each}}
+
+{{outlet}}
